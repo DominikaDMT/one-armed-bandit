@@ -66,9 +66,10 @@ input {
 
 button {
   display: block;
-  margin: 5% auto 20% auto;
+  margin: 3% auto 10% auto;
   height: 4vh;
-  width: 20vw;
+  min-width: 130px;
+  width: 20%;
   background-color: rgb(32, 32, 32);
   border: 1px solid white;
   font-weight: 500;
