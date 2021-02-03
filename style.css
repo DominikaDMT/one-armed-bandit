@@ -17,17 +17,20 @@ html {
   clear: both;
 } */
 
-div.wrap {
-  max-width: 90%;
-  margin: 10% auto;
+
+
+div.game {
+  max-width: 1200px;
+  margin: 120px auto;
   font-family: 'Oswald', sans-serif;
   text-align: center;
+  overflow: hidden;
 }
 
 
 h1 {
   font-size: 4rem;
-  margin-bottom: 5vh;
+  margin-bottom: 5%;
 }
 
 div.color {
@@ -36,7 +39,7 @@ div.color {
   width: 20%;
   height: 20vh;
   background-color: #ddd;
-  margin: 3vw 3vw;
+  margin: 3% 3%;
   box-shadow: 0 0 0 5px rgb(32, 32, 32), 0 0 0 8px rgb(202, 202, 202);
   /* box-shadow: 0 0 0 5px white, 0 0 0 10px red; */
 }
@@ -45,6 +48,10 @@ div.color {
 section.play,
 section.game {
   margin: 5vh
+}
+
+div.color {
+  max-width: 200px ;
 }
 
 input {
@@ -74,4 +81,13 @@ button {
 section.panel, section.score {
   font-size: 1.8rem;
   line-height: 200%;
+}
+
+@media (min-width: 1000px) {
+  div.positioning {
+    height: 100vh;
+    overflow: hidden;
+    /* width: 1200px; */
+    margin: 0 auto;
+  }
 }
